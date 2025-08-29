@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Nicholas Hazzard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <link rel="stylesheet" href="styles.css" />
+  <style> .pdf-frame{width:100%;height:80vh;border:1px solid var(--border);border-radius:12px} </style>
+</head>
+<body class="light">
+  <header class="site-header">
+    <a class="logo" href="index.html">NH</a>
+    <nav class="nav">
+      <a href="index.html" data-nav>About</a>
+      <a href="projects.html" data-nav>Projects</a>
+      <a href="resume.html" data-nav>Resume</a>
+      <a href="contact.html" data-nav>Contact</a>
+      <button id="themeToggle" class="btn small" aria-label="Toggle theme">🌓</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Resume</h1>
+    <p class="muted">If the viewer doesn’t load, use the download link below.</p>
+    <iframe class="pdf-frame" src="resume.pdf"></iframe>
+    <p style="margin-top:12px"><a class="btn" href="resume.pdf" download>Download PDF</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Nicholas Hazzard</span>
+    <div class="social">
+      <a href="mailto:nicholashazzard13@gmail.com">Email</a>
+      <a href="https://github.com/nickhazzard13" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/nicholas-hazzard-a54657351/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
