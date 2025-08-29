@@ -88,6 +88,16 @@ section h2 { font-size: 28px; margin: 0 0 16px; }
 .site-footer a { color: var(--muted); text-decoration: none; }
 .site-footer a:hover { color: var(--fg); }
 
+/* Project card images */
+.card-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;     /* clean 16:9 banner */
+  object-fit: cover;        /* crops nicely */
+  border-bottom: 1px solid var(--border);
+  background: #eee;         /* subtle placeholder bg */
+}
+
 @media (max-width: 880px) {
   .hero { grid-template-columns: 1fr; }
   .grid { grid-template-columns: 1fr; }
