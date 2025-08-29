@@ -41,6 +41,7 @@ body {
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--fg); color: var(--bg); text-decoration: none; font-weight: 700; box-shadow: 0 1px 0 rgba(0,0,0,.06); }
 .btn.ghost { background: transparent; color: var(--fg); }
 .btn.small { padding: 6px 10px; font-size: 14px; }
+.btn.active { outline: 2px solid var(--accent); } /* selected state for About button */
 
 /* Hero */
 .hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; padding: 72px 0; align-items: center; }
@@ -74,6 +75,8 @@ section h2 { font-size: 28px; margin: 0 0 16px; }
 .job .meta { color: var(--muted); font-size: 14px; }
 
 /* Contact */
+.contact { list-style: none; padding: 0; }
+.contact li { margin: 6px 0; }
 .contact-form { max-width: 640px; }
 .field { display: grid; gap: 6px; margin: 12px 0; }
 .field input, .field textarea { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid var(--border); background: #fff; color: var(--fg); }

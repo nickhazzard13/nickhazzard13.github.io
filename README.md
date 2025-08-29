@@ -1,12 +1,14 @@
-# Nicholas Hazzard — GitHub Pages Portfolio
+# Nicholas Hazzard — Portfolio (final)
 
-## Quickstart
+## Upload steps
 1. Create a **public** repo named `nickhazzard13.github.io`.
-2. Upload all files from this folder to the repo root.
-3. Create `assets/` and add your `profile.jpg` headshot there.
-4. Upload your `resume.pdf` to the repo root.
-5. Enable Pages: Settings → Pages → Source “Deploy from a branch”, Branch `main`, Folder `/ (root)`.
+2. Upload all files from this folder to the repo **root**.
+3. Add your headshot at `assets/profile.jpg`.
+4. Add your resume as `resume.pdf` in the repo root.
+5. Enable Pages: Settings → Pages → Deploy from a branch → `main` → root.
 6. Visit: https://nickhazzard13.github.io
 
-## Contact form
-- Create a free Formspree form and replace `REPLACE_WITH_YOUR_FORMSPREE_ID` in `contact.html` with your form ID.
+## Links already wired
+- FantasyLine Live App → https://fantasyline.streamlit.app/
+- Tableau Dashboard → (Projects page) https://public.tableau.com/views/2024fantasybook-final/OFFICIALFINAL?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- Contact page is **email-only**.
